@@ -125,7 +125,7 @@ class ChatFragment : Fragment() {
 
                     sendMessage(sendingMessage, toUser)
                 }
-
+/*
                 FirebaseMessaging.getInstance().subscribeToTopic("all")
 
                 FcmFirebaseSender(
@@ -134,7 +134,7 @@ class ChatFragment : Fragment() {
                     sendingMessage.text,
                     requireContext(),
                     requireActivity()
-                ).sendNotifications()
+                ).sendNotifications()*/
             }
         }
     }
